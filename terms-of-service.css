@@ -541,31 +541,6 @@
   font-family: Poppins;
   line-height: 21px;
 }
-.terms-of-service-subscribe {
-  gap: var(--dl-space-space-unit);
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.terms-of-service-copyright1 {
-  gap: var(--dl-space-space-fiveunits);
-  flex: 1;
-  width: 100%;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.terms-of-service-text281 {
-  color: #C4C4C4;
-  width: 100%;
-  font-size: 14px;
-  font-family: Poppins;
-  line-height: 21px;
-}
 @media(max-width: 991px) {
   .terms-of-service-content {
     gap: var(--dl-space-space-threeunits);
@@ -575,9 +550,6 @@
   }
   .terms-of-service-copyright {
     display: none;
-  }
-  .terms-of-service-copyright1 {
-    display: flex;
   }
 }
 @media(max-width: 767px) {

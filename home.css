@@ -100,6 +100,9 @@
   display: flex;
   flex-direction: column;
 }
+.navbar-link2 {
+  text-decoration: none;
+}
 .navbar-text1 {
   color: rgba(255, 255, 255, 1);
   align-self: auto;
@@ -121,7 +124,7 @@
     padding-bottom: var(--dl-space-space-fourunits);
   }
   .navbar-branding-logo {
-    width: 80px;
+    width: auto;
   }
   .navbar-nav-links {
     display: none;

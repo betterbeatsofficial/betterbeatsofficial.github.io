@@ -111,6 +111,11 @@
   text-decoration: none;
 }
 
+
+
+
+
+
 @media(max-width: 767px) {
   .navbar-navbar {
     padding-bottom: var(--dl-space-space-fourunits);
@@ -141,5 +146,10 @@
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-twounits);
     justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-branding-logo {
+    width: auto;
   }
 }

@@ -111,6 +111,11 @@
   text-decoration: none;
 }
 
+
+
+
+
+
 @media(max-width: 767px) {
   .navbar-navbar {
     padding-bottom: var(--dl-space-space-fourunits);
@@ -141,6 +146,11 @@
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-twounits);
     justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .navbar-branding-logo {
+    width: auto;
   }
 }
 
@@ -192,6 +202,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 @media(max-width: 991px) {
   .card-root-class-name {
     flex: 0 0 auto;
@@ -205,6 +224,42 @@
     flex: 0 0 auto;
     width: 100%;
   }
+  .card-root-class-name3 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name4 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name5 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name6 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name7 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name8 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name9 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name10 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name11 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
 }
 
 .home-container {
@@ -215,7 +270,7 @@
   overflow-x: hidden;
   align-items: center;
   flex-direction: column;
-  background-color: #0F0F0F;
+  background-color: #0C0C0C;
 }
 .home-section {
   width: 100%;
@@ -339,16 +394,17 @@
   justify-content: space-between;
 }
 .home-image4 {
-  top: 103px;
-  left: -75px;
+  top: 0px;
+  left: -80px;
   width: 718px;
-  height: 587px;
+  height: 754px;
   margin: auto;
   position: absolute;
   object-fit: cover;
   margin-bottom: auto;
 }
 .home-image5 {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: none;
 }
 .home-section1 {
@@ -584,9 +640,6 @@
     align-items: flex-end;
     flex-direction: column;
   }
-  .home-image6 {
-    width: 600px;
-  }
   .home-section1 {
     gap: var(--dl-space-space-threeunits);
     padding-top: 100px;
@@ -641,9 +694,6 @@
     font-size: 14px;
     line-height: 21px;
   }
-  .home-image6 {
-    width: 500px;
-  }
   .home-left {
     gap: var(--dl-space-space-unit);
   }
@@ -668,9 +718,6 @@
   }
   .home-heading {
     max-width: 280px;
-  }
-  .home-image6 {
-    width: 400px;
   }
   .home-footer1 {
     padding: var(--dl-space-space-unit);

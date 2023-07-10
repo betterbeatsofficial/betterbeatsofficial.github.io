@@ -456,44 +456,6 @@
   color: var(--dl-color-gray-white);
 }
 .terms-of-service-footer {
-  gap: var(--dl-space-space-fiveunits);
-  width: 100%;
-  height: 233px;
-  display: flex;
-  align-items: center;
-  padding-left: var(--dl-space-space-oneandhalfunits);
-  padding-right: var(--dl-space-space-oneandhalfunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-threeunits);
-  justify-content: center;
-}
-.terms-of-service-content {
-  width: 100%;
-  display: flex;
-  max-width: 1200px;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.terms-of-service-main-content {
-  gap: var(--dl-space-space-fiveunits);
-  flex: 1;
-  height: 100%;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.terms-of-service-copyright {
-  gap: var(--dl-space-space-fiveunits);
-  flex: 1;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.terms-of-service-footer1 {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
@@ -533,6 +495,15 @@
   align-items: flex-start;
   justify-content: center;
 }
+.terms-of-service-navlink {
+  text-decoration: none;
+}
+.terms-of-service-navlink1 {
+  text-decoration: none;
+}
+.terms-of-service-navlink2 {
+  text-decoration: none;
+}
 .terms-of-service-text280 {
   color: rgb(196, 196, 196);
   width: 100%;
@@ -541,19 +512,8 @@
   font-family: Poppins;
   line-height: 21px;
 }
-@media(max-width: 991px) {
-  .terms-of-service-content {
-    gap: var(--dl-space-space-threeunits);
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-  .terms-of-service-copyright {
-    display: none;
-  }
-}
 @media(max-width: 767px) {
-  .terms-of-service-footer1 {
+  .terms-of-service-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -565,7 +525,7 @@
   }
 }
 @media(max-width: 479px) {
-  .terms-of-service-footer1 {
+  .terms-of-service-footer {
     padding: var(--dl-space-space-unit);
   }
   .terms-of-service-separator {

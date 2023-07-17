@@ -38,6 +38,9 @@
   text-decoration: none;
 }
 .navbar-link2 {
+  text-decoration: none;
+}
+.navbar-link3 {
   display: contents;
 }
 .navbar-get-started {
@@ -103,7 +106,7 @@
   display: flex;
   flex-direction: column;
 }
-.navbar-link3 {
+.navbar-link4 {
   text-decoration: none;
 }
 .navbar-text1 {

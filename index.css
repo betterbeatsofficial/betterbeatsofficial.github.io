@@ -433,6 +433,17 @@
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: none;
 }
+.home-container1 {
+  flex: 0 0 auto;
+  height: auto;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+}
+.home-div {
+  width: 100%;
+}
 .home-section1 {
   gap: var(--dl-space-space-fiveunits);
   flex: 1;
@@ -585,7 +596,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.home-container1 {
+.home-container2 {
   gap: var(--dl-space-space-unit);
   color: #c4c4c4;
   width: 100%;

@@ -55,6 +55,9 @@
 
 
 
+
+
+
 @media(max-width: 991px) {
   .card-root-class-name {
     flex: 0 0 auto;
@@ -101,6 +104,18 @@
     width: 100%;
   }
   .card-root-class-name11 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name13 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .card-root-class-name14 {
     flex: 0 0 auto;
     width: 100%;
   }

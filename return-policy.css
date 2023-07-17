@@ -35,6 +35,9 @@
   text-decoration: none;
 }
 .navbar-link1 {
+  text-decoration: none;
+}
+.navbar-link2 {
   display: contents;
 }
 .navbar-get-started {
@@ -100,7 +103,7 @@
   display: flex;
   flex-direction: column;
 }
-.navbar-link2 {
+.navbar-link3 {
   text-decoration: none;
 }
 .navbar-text1 {
@@ -113,6 +116,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 
 
 

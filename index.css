@@ -440,9 +440,11 @@
   align-self: stretch;
   align-items: center;
   justify-content: center;
+  background-color: #292929;
 }
 .home-div {
   width: 100%;
+  max-width: 1200px;
 }
 .home-section1 {
   gap: var(--dl-space-space-fiveunits);
